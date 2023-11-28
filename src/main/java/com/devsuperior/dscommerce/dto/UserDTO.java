@@ -17,7 +17,7 @@ public class UserDTO {
         this.id = entity.getId();
         this.name = entity.getUsername();
         this.email = entity.getEmail();
-        for (GrantedAuthority role : entity.getAuthorities()) {
+        for (GrantedAuthority role : entity.getRoles()) {
             roles.add(role.getAuthority());
         }
     }
