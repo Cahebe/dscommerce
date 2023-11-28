@@ -2,7 +2,7 @@ package com.devsuperior.dscommerce.controllers.handlers;
 
 import com.devsuperior.dscommerce.dto.CustomErrorDTO;
 import com.devsuperior.dscommerce.dto.ValidationErrorDTO;
-import com.devsuperior.dscommerce.exceptions.ForbiddenException;
+import com.devsuperior.dscommerce.services.exceptions.ForbiddenException;
 import com.devsuperior.dscommerce.services.exceptions.DatabaseException;
 import com.devsuperior.dscommerce.services.exceptions.ResourceNotFoundException;
 import jakarta.servlet.http.HttpServletRequest;
